@@ -13,7 +13,7 @@ cap = cv2.VideoCapture(1)
 
 #Initializing the face detector and landmark detector
 detector = dlib.get_frontal_face_detector()
-predictor = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat")
+predictor = dlib.shape_predictor("shape_predictor_68_face_landmarks.dat")#https://drive.google.com/file/d/1JXtI702zNbv_ok6g8Nt2VbWrf8Qajj8J/view?usp=share_link
 
 #status marking for current state
 sleep = 0
